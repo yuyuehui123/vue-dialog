@@ -11,8 +11,7 @@ import VueDialog from './vue-dialog'
   
 //***.vue  
 1.组件中使用方法this.$show.show  
-  methods:{                    
-    ....               
+  methods:{               
     test(){      
                 this.suc='back';  
                 console.log(this.suc);  
