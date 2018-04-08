@@ -6,13 +6,13 @@ vue对话框组件
 import VueDialog from './vue-dialog'  
 
 //app.vue
-1.给router-view或者外层div添加class  router-view     
+1.给router-view或者外层div添加class 
   <router-view class="router-view"></router-view>    
   
 //***.vue  
 1.组件中使用方法this.$show.show  
-  methods:{               
-    test(){      
+  methods:{               
+    test(){      
                 this.suc='back';  
                 console.log(this.suc);  
     },   
@@ -32,5 +32,5 @@ import VueDialog from './vue-dialog'
     }   
   }  
 //example  
- ![image]( https://github.com/yuyuehui123/vue-dialog/1.jpg)  
- ![image]( https://github.com/yuyuehui123/vue-dialog/2.jpg)  
+ [image]( https://github.com/yuyuehui123/vue-dialog/1.jpg)  
+ [image]( https://github.com/yuyuehui123/vue-dialog/2.jpg)
